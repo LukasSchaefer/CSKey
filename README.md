@@ -4,6 +4,8 @@ Credit goes to [@Schwenger](https://github.com/Schwenger) for creating [the orig
 
 
 # Setup
+-- from [forked repo](https://github.com/schaefer-dev/CSKey); full credit to [@schaefer-dev](https://github.com/schaefer-dev)
+
 
 run 
 
@@ -12,13 +14,13 @@ run
 to install the Keyboard Layout with its icon.
 
 
-# Icons
+## Icons
 
 Icons have to be named "`CSLayout.icns`" and are installed using the `install.py`
 
 Below you will find two ways to create such icns files.
 
-## Apple-icons
+### Apple-icons
 
 use 
 
@@ -35,10 +37,13 @@ icns creation by [@retifrav](https://github.com/retifrav/python-scripts/blob/mas
 
 to create apple icns file that supports variety of sizes/resolutions
 
-## Documentation
+
+# Documentation
+-- from [the original version](https://github.com/Schwenger/CSKey); full credit to [@Schwenger](https://github.com/Schwenger)
+
 There are the usual two layers for the usual roman letters in qwerty format, lowercase without any modifiers and uppercase with the shift modifier.
 
-### Option (⌥) Layer
+## Option (⌥) Layer
 The option and shift-option layer provide access to Greek letters. Once again, the shift button switches from lowercase to uppercase.
 
 There are two flavors of the layout available: with or without German Umlauts. I'll first explain the rationale behind the layout without the Umlauts and then point out the differences when opting for Umlauts.
@@ -62,7 +67,7 @@ Let's sum up the less obvious choices as a cheat sheet:
 | ω/Ω          | w/W and o/O | ω looks like w and sounds like o |
 | θ/Θ          | j/J         | θ is a di**                      |
 
-#### German Umlauts
+### German Umlauts
 So if you're one of us Germans and sometimes need to throw a couple of üs and äs into the mix, I got you covered. During setup, I'll ask whether you need Umlauts, if you type something starting with `y`, I'll install a slightly modified option layer for you.
 
 You can find ä on the a key, ü on the u key, ö on the o key, and --- I know, it's technically not an Umlaut --- ß on the s key. Fun fact: there is even the uppercase ẞ available, even though barely anyone knows about its existence (because it's pointless most of the time).
@@ -80,7 +85,7 @@ Let's sum up the less obvious choices again:
 | σ/Σ                 | q/Q         | σ is a rotated, misshapen q      |
 | α/A                 | v/V         | A is a rotated V missing its bar |
 
-### Math Mode
+## Math Mode
 So far we just combined two character sets --- nothing to write home about.
 Let's add math to the mix, shall we?
 
@@ -133,5 +138,5 @@ The mnemonics are incomplete, sometimes there is none but I found the symbol use
 | ⟷ | option+= | |
 | ⇎ | option++ | negation of ⟷ |
 
-## Attribution
+# Attribution
 The layout was created using [Ukelele](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele), which looks like a spelling error but turns out to be an awesome utility to create custom keyboard layouts. Keep up the great work, folks!
